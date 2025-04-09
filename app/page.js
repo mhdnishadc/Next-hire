@@ -27,8 +27,8 @@ export default function Home() {
             <button className="bg-purple-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-purple-700 transition"  onClick={handleGetStarted}>
               Get Started →
             </button>
-            <button className="border border-gray-300 px-6 py-2 rounded-md font-medium hover:bg-gray-100 transition">
-              🎥 Watch video
+            <button className="border border-gray-300 px-6 py-2 rounded-md font-medium hover:bg-gray-100 transition" onClick={handleGetStarted}>
+              🎥 Start Interview
             </button>
           </div>
 
@@ -58,6 +58,14 @@ export default function Home() {
               <div className="flex items-center space-x-2">
                 <img src="/docker.svg" alt="Reddit" className="w-10 h-10 text-green-500" />
                 <span>Docker</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <img src="/amazonwebservices.svg" alt="Reddit" className="w-10 h-10 text-green-500" />
+                <span>Aws</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <img src="/netflix.svg" alt="Reddit" className="w-10 h-10 text-green-500" />
+                <span>Netflix</span>
               </div>
             </div>
           </div>
